@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MassSms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_xxx">Xxx</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_activity">MainActivity</string>
+    <string name="title_activity_person_editor">PersonEditor</string>
+    <string name="title_activity_group_editor">GroupEditor</string>
+    <string name="title_activity_person_in_group">PersonInGroup</string>
+    <string name="title_activity_group_content">GroupContent</string>
+
+</resources>

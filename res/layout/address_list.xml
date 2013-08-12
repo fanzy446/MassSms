@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<ListView
+	android:id="@+id/address_list_blank"
+	android:layout_width="320dp"
+	android:layout_height="383dp"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true">
+</ListView>
+<Button
+	android:id="@+id/address_list_yes"
+	android:layout_width="161dp"
+	android:layout_height="wrap_content"
+	android:text="确定"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true" />
+<Button
+	android:id="@+id/address_list_return"
+	android:layout_width="161dp"
+	android:layout_height="wrap_content"
+	android:text="返回"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentRight="true" />
+
+</RelativeLayout>

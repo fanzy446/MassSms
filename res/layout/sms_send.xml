@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/sms_send_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="收信人" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/sms_send_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/sms_send_title1" >
+    </ListView>
+	
+    <TextView
+        android:id="@+id/sms_send_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="top"
+        android:layout_below="@id/sms_send_contact"
+        android:text="信息" />
+	<Button 
+	    android:id="@+id/sms_send_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/sms_send_title2"
+        android:layout_below="@id/sms_send_contact"
+        android:text="自动生成"/>
+	<Button 
+	    android:id="@+id/sms_send_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sms_send_generate"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/sms_send_contact"
+        android:text="标签"/>
+    <EditText
+        android:id="@+id/sms_send_content"
+        android:hint="请输入短信内容"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_above="@+id/sms_send_send"
+        android:layout_below="@+id/sms_send_generate" />
+
+    <Button
+        android:id="@+id/sms_send_send"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="发送" />
+
+    <Button
+        android:id="@+id/sms_send_return"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="返回" />
+
+</RelativeLayout>
