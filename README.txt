@@ -1,3 +1,2 @@
 HEHE
-It is a test of github.
-fuck
+fanzy
