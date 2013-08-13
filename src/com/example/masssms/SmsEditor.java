@@ -2,6 +2,8 @@ package com.example.masssms;
 
 import java.util.ArrayList;
 
+import com.example.data.Person;
+
 
 public class SmsEditor
 {
